@@ -1,0 +1,15 @@
+nav {
+  tr {
+    margin: 2px;
+    padding: 2px;
+    list-style: none;
+  }
+  th,td {
+    display: inline-block;
+  }
+  a,p {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}

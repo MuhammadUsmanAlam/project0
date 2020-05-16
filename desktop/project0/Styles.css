@@ -1,0 +1,58 @@
+body {
+  background: url(Books.jpg)
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background: url(b2.jpg);
+  }
+}
+p,h2,th,td {
+  color: White
+}
+
+div.scroll-menu {
+  background-color: #ffffff00;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-menu p,a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+div.scroll-menu p,a:hover {
+  background-color: #040812;
+}
+
+.t01, .sm, .row, .col-6 col-sm-3, .alert, .alert1 {
+  padding: 20px 20px 20px;
+  color: White;
+}
+
+#name #occ {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.row {
+  text-align: center;
+  display: inline-block;
+    text-align: center;
+  color: lightblue;
+  overflow: auto;
+}
+.col {
+  background-color: #040812;
+  text-align: center;
+  display: inline-block;
+    text-align: center;
+  color:pink;
+  overflow: auto;
+}
